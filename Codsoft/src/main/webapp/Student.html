@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>STUDENT GRADE CALCULATOR</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: lightblue;
+    }
+    table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        border: 2px solid black;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    input[type="text"] {
+        width: calc(100% - 16px);
+        padding: 6px;
+        box-sizing: border-box;
+    }
+</style>
+</head>
+<body>
+<form method="post" action="STUDENT_GRADE_CALCULATOR">
+
+<table>
+    <caption>Student Marksheet Input Form</caption>
+    <tr>
+        <th>Student Name
+        </th>
+        <td colspan="3">
+        <input type="text" placeholder="Enter Student Name" name="studentname">
+        </td>
+    </tr>
+    <tr>
+        <th>Roll Number</th>
+        <td colspan="3">
+        <input type="text" placeholder="Enter Roll Number" name="rollnumber">
+        </td>
+    </tr>
+    
+    <tr>
+        <th>Java</th>
+        <td>
+        <input type="text" placeholder="Enter Java Marks" name="java">
+        </td>
+    </tr>
+    
+    <tr>   
+        <th>Python</th>
+        <td>
+        <input type="text" placeholder="Enter Python Marks" name="python">
+        </td>
+    </tr> 
+       
+    <tr>   
+        <th>ADBMS</th>
+        <td>
+        <input type="text" placeholder="Enter ADBMS Marks" name="adbms">
+        </td>
+   </tr> 
+   
+   <tr>   
+        <th>HCI</th>
+        <td>
+        <input type="text" placeholder="Enter HCI Marks" name="hci">
+        </td>
+   </tr>
+   
+   <tr>   
+        
+        <td colspan="2">
+            <center><input type="submit" name="Login"></center>
+        </td>
+   </tr>
+ 
+</table>
+</form>
+</body>
+</html>
